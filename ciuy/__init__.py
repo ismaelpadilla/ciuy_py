@@ -6,7 +6,7 @@ def validation_digit(ci):
     """
     Given a ci (without validation digit), returns it's validation digit as a string.
     The input string may have periods, dashes, or other characters (any non-digit characters are ignored).
-    The input must be a number between 100.000 and 9.999.999, will throw ValueError otherwise.
+    The input must be a number between 100.000 and 9.999.999, will raise ValueError otherwise.
 
     >>> validation_digit('1.111.111')
     '1'
@@ -38,7 +38,7 @@ def validate_ci(ci):
     Returns True if ci (including validation digit) is valid, returns False otherwise.
     The input string may have periods, dashes, or other characters (any non-digit characters are ignored).
     The input (not including validation digit) must be a number between 100.000 and 9.999.999, 
-     will throw ValueError otherwise.
+     will raise ValueError otherwise.
 
     >>> validate_ci(11111111)
     True
@@ -65,7 +65,7 @@ def random():
     Returns a random ci in the 1.000.000-9.000.000 range, including the validation digit.
     The returned string does not contain any periods or dashes.
     """
-    random_number = str(uniform(1000000, 9999999))
+    random_number = str(round(uniform(100000, 9999999)))
     v_digit = validation_digit(random_number)
     return random_number + v_digit
 
@@ -73,7 +73,7 @@ def random():
 def _clean(ci):
     """
     Removes any non-digit character from the input string.
-    Will throw TypeError if input isn't a string.
+    Will raise TypeError if input isn't a string.
 
         >>> _clean('1.111.111')
         '1111111'
