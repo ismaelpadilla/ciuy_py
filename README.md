@@ -1,6 +1,6 @@
 # ciuy
 
-Package for validating Uruguayan ids. Based on the ci_uy Ruby gem by Fernando Briano ([link])(https://github.com/picandocodigo/ci_uy).
+Package for validating Uruguayan ids. Based on the ci_uy Ruby gem by Fernando Briano ([link](https://github.com/picandocodigo/ci_uy)).
 
 Work in progress.
 
