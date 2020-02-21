@@ -10,3 +10,6 @@
 /build/
 
 .coverage
+
+# Sphinx documentation
+docs/_build/
