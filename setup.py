@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(name='ciuy',
       version='0.3.3',
-      description='Package for validating Uruguayan ids (work in progress).',
+      description='Python package for validating Uruguayan identity document numbers.',
       long_description=long_description,
       long_description_content_type="text/markdown",
       keywords=["Uruguay", "dni", "id", "eid", "validation"],
@@ -22,11 +22,3 @@ setup(name='ciuy',
       packages=['ciuy'],
       include_package_data=True,
       zip_safe=True)
-
-'''
-TODO
-    long_description
-    keywords
-READ
-    https://packaging.python.org/guides/distributing-packages-using-setuptools/
-'''
