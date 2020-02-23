@@ -22,7 +22,7 @@ Calculating the validation number
 ---------------------------------
 
 In order to calculate the validation number for a 7-digit id number, the
-number must be multiplied, digit by digit, by 8123476. Then the rsult is
+number must be multiplied, digit by digit, by 8123476. Then the result is
 added. So if the number is interpreted as a 7 dimensional vector, one must
 calculate the dot product of said vector by ``<8, 1, 2, 3, 4, 7, 6>``\ .
 
