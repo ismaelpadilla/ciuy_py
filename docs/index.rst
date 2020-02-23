@@ -6,9 +6,12 @@
 ciuy
 ================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+
+.. .. toctree::
+..    :hidden:
+
+   
+
 
 
 Package for validating Uruguayan identity document numbers. 
@@ -20,7 +23,7 @@ The methods in this package work with strings and ignore any non-digit character
    12345672
 
 Installation
-============
+------------
 
 ``ciuy`` can be installed with :any:`pip<pip:index>`:
 
@@ -30,7 +33,7 @@ Installation
 
 
 Usage
-=====
+-----
 
 >>> import ciuy
 >>> ciuy.validate_ci("1.234.567-2")
@@ -40,8 +43,10 @@ True
 >>> ciuy.random()
 '82405816'
 
+See :doc:`/functions` for more detailed documentation of each functions.
+
 Testing
-=======
+-------
 
 This package includes some doctests, as well as unit tests that can be run with :any:`nose2<nose2:index>`.
 
@@ -65,6 +70,14 @@ Use :any:`nose2<nose2:index>` to run the unit tests:
 
    OK
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   Home <self>
+   functions
+   about
 
 .. Indices and tables
 .. ==================
