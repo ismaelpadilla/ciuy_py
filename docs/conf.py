@@ -21,6 +21,8 @@ project = 'ciuy'
 copyright = '2020, Ismael Padilla'
 author = 'Ismael Padilla'
 
+master_doc = 'index'
+
 # The full version, including alpha/beta/rc tags
 release = '0.3.3'
 
