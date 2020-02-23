@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Ismael Padilla
+# This file is distributed under the same license as the ciuy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  ciuy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 19:41-0300\n"
+"PO-Revision-Date: 2020-02-23 19:59-0300\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../index.rst:74
+msgid "Home"
+msgstr "Inicio"
+
+#: ../../index.rst:74
+msgid "Contents:"
+msgstr "Contenido:"
+
+#: ../../index.rst:7
+msgid "ciuy"
+msgstr "ciuy"
+
+#: ../../index.rst:17
+msgid "Package for validating Uruguayan identity document numbers."
+msgstr "Paquete para validar números de documentos de identidad Uruguayos."
+
+#: ../../index.rst:19
+msgid ""
+"The functions in this package work with strings and ignore any non-digit "
+"characters. Numbers are valid too. So for example, the following "
+"expressions represent the same document number::"
+msgstr ""
+"Las funciones en este paquete funcionan con strings e ignoran cualquier "
+"caracter que no sean números. También se pueden usar números. Entonces "
+"por ejemplo, las siguientes expresiones representan el mismo número de "
+"documento::"
+
+#: ../../index.rst:26
+msgid "Installation"
+msgstr "Instalación"
+
+#: ../../index.rst:28
+msgid "``ciuy`` can be installed with :any:`pip<pip:index>`:"
+msgstr "``ciuy`` puede ser instalado con :any:`pip<pip:index>`:"
+
+#: ../../index.rst:36
+msgid "Usage"
+msgstr "Uso"
+
+#: ../../index.rst:46
+msgid "See :doc:`/functions` for more detailed documentation of each function."
+msgstr ""
+
+#: ../../index.rst:49
+#, fuzzy
+msgid "Testing"
+msgstr "Testing"
+
+#: ../../index.rst:51
+msgid ""
+"This package includes some doctests, as well as unit tests that can be "
+"run with :any:`nose2<nose2:index>`."
+msgstr ""
+"Este paquete incluye algunos doctests, así como también tests unitarios "
+"que pueden ser ejecutados con :any:`nose2<nose2:index>`."
+
+#: ../../index.rst:53
+msgid "After cloning the repository, you can run the doctests with:"
+msgstr "Luego de clonar el repositorio, puedes ejecutar los doctests con:"
+
+#: ../../index.rst:62
+msgid "Use :any:`nose2<nose2:index>` to run the unit tests:"
+msgstr "Usa :any:`nose2<nose2:index>` para ejecutar los tests unitarios:"
+

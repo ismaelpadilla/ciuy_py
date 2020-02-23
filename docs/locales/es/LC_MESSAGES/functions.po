@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Ismael Padilla
+# This file is distributed under the same license as the ciuy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ciuy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 19:04-0300\n"
+"PO-Revision-Date: 2020-02-23 20:04-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../../functions.rst:2
+msgid "Functions and examples"
+msgstr "Funciones y ejemplos"
+
+#: ../../functions.rst:6
+msgid "Validates the document number passed as a paremeter."
+msgstr "Valida el número de documento pasado como parámetro."
+
+#: ../../functions.rst
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: ../../functions.rst:8 ../../functions.rst:20
+msgid ""
+"The document number to validate. Any non-digit characters are ignored. A "
+"number can be passed as a parameter as well."
+msgstr ""
+"Número de documento a ser validado. Los caracteres que no sean números "
+"son ignorados. También se puede pasar un número como parámetro."
+
+#: ../../functions.rst
+msgid "Returns"
+msgstr "Retorna"
+
+#: ../../functions.rst:9 ../../functions.rst:21
+msgid "``True`` if the document number is valid, ``False`` otherwise."
+msgstr "``True`` si el número de documento es válido, ``False`` en caso contrario."
+
+#: ../../functions.rst
+msgid "Return type"
+msgstr "Tipo de retorno"
+
+#: ../../functions.rst
+msgid "Raises"
+msgstr "Levanta"
+
+#: ../../functions.rst:11 ../../functions.rst:23
+msgid ""
+"if ``ci``\\ , without including the validation digit is lower than "
+"100.000 or higher than 9.999.999."
+msgstr ""
+"si ``ci``\\ , sin incluir el dígito verificador es menor que "
+"100.000 o mayor que 9.999.999."
+
+#: ../../functions.rst:18
+msgid "Returns the validation digit for a given document number."
+msgstr "Retorna el dígito de validación para un número de documento dado."
+
+#: ../../functions.rst:30
+msgid ""
+"Returns a random document number, including validation digit. The "
+"document number is in the (100.000, 9.999.999) range."
+msgstr ""
+"Devuelve un número de documento aleatorio, incluido el dígito de "
+"validación. El número de documento está en el rango (100.000, 9.999.999)."
+
+#: ../../functions.rst:32
+msgid "A random valid document number."
+msgstr "Un número de documento válido aleatorio."
