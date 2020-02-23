@@ -25,12 +25,12 @@ def validation_digit(ci):
 
     digit_list = [int(i) for i in clean_ci]
 
-    control = [2, 9, 8, 7, 6, 3, 4]
+    control = [8, 1, 2, 3, 4, 7, 6]
 
     digit_list.reverse()
     control.reverse()
     dot_product = sum(map(lambda x, y: x*y, digit_list, control))
-    return str(10 - (round(dot_product) % 10))[-1]
+    return str(dot_product % 10)
 
 
 def validate_ci(ci):
@@ -62,7 +62,7 @@ def validate_ci(ci):
 
 def random():
     """
-    Returns a random ci in the 1.000.000-9.000.000 range, including the validation digit.
+    Returns a random ci in the 100.000-9.000.000 range, including the validation digit.
     The returned string does not contain any periods or dashes.
     """
     random_number = str(round(uniform(100000, 9999999)))
