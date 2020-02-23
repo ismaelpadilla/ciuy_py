@@ -26,6 +26,9 @@ master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = '0.3.3'
 
+# Localization config
+locale_dirs = ['locale/']   
+gettext_compact = False 
 
 # -- General configuration ---------------------------------------------------
 
