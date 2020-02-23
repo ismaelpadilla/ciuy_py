@@ -43,7 +43,7 @@ True
 >>> ciuy.random()
 '82405816'
 
-See :doc:`/functions` for more detailed documentation of each functions.
+See :doc:`/functions` for more detailed documentation of each function.
 
 Testing
 -------

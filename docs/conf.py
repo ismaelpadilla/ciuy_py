@@ -27,7 +27,7 @@ master_doc = 'index'
 release = '0.3.3'
 
 # Localization config
-locale_dirs = ['locale/']   
+locale_dirs = ['locales/']   
 gettext_compact = False 
 
 # -- General configuration ---------------------------------------------------
