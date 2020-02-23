@@ -16,7 +16,7 @@ ciuy
 
 Package for validating Uruguayan identity document numbers. 
 
-The methods in this package work with strings and ignore any non-digit characters. Numbers are valid too. So for example, the following expressions represent the same document number::
+The functions in this package work with strings and ignore any non-digit characters. Numbers are valid too. So for example, the following expressions represent the same document number::
 
    '1.234.567-2'
    '12345672'
