@@ -1,15 +1,18 @@
 from setuptools import setup
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='ciuy',
-      version='0.3.3',
+      version='0.3.5',
       description='Python package for validating Uruguayan identity document numbers.',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      keywords=["Uruguay", "dni", "id", "eid", "validation"],
-      url='https://github.com/ismaelpadilla/ci_uy_py',
+      keywords=["Uruguay", "dni", "id", "eid", "validation", "cédula", "cédula uruguaya"],
+      url='https://github.com/ismaelpadilla/ciuy_py',
+      project_urls={
+          "Documentation": "https://ciuy.readthedocs.io/"
+      },
       author='Ismael Padilla',
       author_email='padillaismael92@gmail.com',
       license='MIT',

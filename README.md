@@ -70,7 +70,7 @@ OK
 
 # Todo
 
-- Maybe add command line scripts?
+- Add command line scripts.
 
 ---
 
