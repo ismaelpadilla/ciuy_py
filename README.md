@@ -77,7 +77,7 @@ tests/test_validation_digit.py .......................                   [100%]
 ============================== 73 passed in 0.37s =============================
 ```
 
-    You can also use `pytest` to run all tests, including doctests, with:
+You can also use `pytest` to run all tests, including doctests, with:
 
 ```
 $ py.test --doctest-modules
