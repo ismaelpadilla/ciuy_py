@@ -52,7 +52,7 @@ This package includes some doctests, as well as unit tests that can be run with 
 
 After cloning the repository, you can run the doctests with:
 
-.. code-block::
+::
 
    $ python3 -m doctest ./ciuy/__init__.py -v
    (several lines ommited)
@@ -61,7 +61,7 @@ After cloning the repository, you can run the doctests with:
 
 Use :any:`pytest<pytest:index>` to run the unit tests:
 
-.. code-block::
+::
 
    $ pytest
    ============================= test session starts ==============================
@@ -78,7 +78,7 @@ Use :any:`pytest<pytest:index>` to run the unit tests:
 
 You can also use :any:`pytest<pytest:index>` to run all tests, including doctests, with:
 
-.. code-block::
+::
 
    $ py.test --doctest-modules
 
