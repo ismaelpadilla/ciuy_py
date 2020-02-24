@@ -48,7 +48,7 @@ See :doc:`/functions` for more detailed documentation of each function.
 Testing
 -------
 
-This package includes some doctests, as well as unit tests that can be run with :any:`nose2<nose2:index>`.
+This package includes some doctests, as well as unit tests that can be run with :any:`pytest<pytest:index>`.
 
 After cloning the repository, you can run the doctests with:
 
@@ -59,16 +59,28 @@ After cloning the repository, you can run the doctests with:
    11 passed and 0 failed.
    Test passed.
 
-Use :any:`nose2<nose2:index>` to run the unit tests:
+Use :any:`pytest<pytest:index>` to run the unit tests:
 
 .. code-block::
 
-   $ python3 -m nose2
-   .........................................................................
-   ----------------------------------------------------------------------
-   Ran 73 tests in 0.008s
+   $ pytest
+   ============================= test session starts ==============================
+   platform linux -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
+   rootdir: /home/ciuy
+   collected 73 items                                                             
 
-   OK
+   tests/test_clean.py ..........                                           [ 13%]
+   tests/test_random.py ..                                                  [ 16%]
+   tests/test_validate_ci.py ......................................         [ 68%]
+   tests/test_validation_digit.py .......................                   [100%]
+
+   ============================== 73 passed in 0.37s =============================
+
+You can also use :any:`pytest<pytest:index>` to run all tests, including doctests, with:
+
+.. code-block::
+
+   $ py.test --doctest-modules
 
 
 .. toctree::

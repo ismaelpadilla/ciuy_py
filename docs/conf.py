@@ -24,7 +24,7 @@ author = 'Ismael Padilla'
 master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
-release = '0.3.6'
+release = '0.4.0'
 
 # Localization config
 locale_dirs = ['locales/']
@@ -39,8 +39,8 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx'
               ]
 
 intersphinx_mapping = {
-    'nose2': ('https://docs.nose2.io/en/latest/', None),
-    'pip': ('https://pip.pypa.io/en/stable/', None),
+    'pytest': ('https://doc.pytest.org/en/latest/', None),
+    'pip': ('https://pip.pypa.io/en/stable/', None)
 }
 
 # Add any paths that contain templates here, relative to this directory.

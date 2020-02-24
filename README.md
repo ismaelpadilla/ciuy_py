@@ -49,7 +49,7 @@ True
 
 # Testing
 
-This package includes some doctests, as well as unit tests that can be run with `nose2`.
+This package includes some doctests, as well as unit tests that can be run with `pytest`.
 
 After cloning the repository, you can run the doctests with:
 
@@ -60,14 +60,27 @@ $ python3 -m doctest ./ciuy/__init__.py -v
 Test passed.
 ```
 
-Use `nose2` to run the unit tests:
-```
-$ python3 -m nose2
-.........................................................................
-----------------------------------------------------------------------
-Ran 73 tests in 0.008s
+Use `pytest` to run the unit tests:
 
-OK
+```
+$ pytest
+============================= test session starts ==============================
+platform linux -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
+rootdir: /home/ciuy
+collected 73 items                                                             
+
+tests/test_clean.py ..........                                           [ 13%]
+tests/test_random.py ..                                                  [ 16%]
+tests/test_validate_ci.py ......................................         [ 68%]
+tests/test_validation_digit.py .......................                   [100%]
+
+============================== 73 passed in 0.37s =============================
+```
+
+    You can also use `pytest` to run all tests, including doctests, with:
+
+```
+$ py.test --doctest-modules
 ```
 
 # Todo
