@@ -2,6 +2,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/ciuy)
 ![PyPI - Status](https://img.shields.io/pypi/status/ciuy)
+[![Build Status](https://travis-ci.com/ismaelpadilla/ciuy_py.svg?branch=master)](https://travis-ci.com/ismaelpadilla/ciuy_py)
 [![Documentation Status](https://readthedocs.org/projects/ciuy/badge/?version=latest)](https://ciuy.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - License](https://img.shields.io/pypi/l/ciuy)
 
