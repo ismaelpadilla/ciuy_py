@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  ciuy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-23 19:41-0300\n"
+"POT-Creation-Date: 2020-02-24 14:49-0300\n"
 "PO-Revision-Date: 2020-02-23 19:59-0300\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:74
+#: ../../index.rst:86
 msgid "Home"
 msgstr "Inicio"
 
-#: ../../index.rst:74
+#: ../../index.rst:86
 msgid "Contents:"
 msgstr "Contenido:"
 
@@ -59,7 +59,9 @@ msgstr "Uso"
 
 #: ../../index.rst:46
 msgid "See :doc:`/functions` for more detailed documentation of each function."
-msgstr "Ver :doc:`/functions` para información más detallada acerca de cada función."
+msgstr ""
+"Ver :doc:`/functions` para información más detallada acerca de cada "
+"función."
 
 #: ../../index.rst:49
 msgid "Testing"
@@ -68,16 +70,23 @@ msgstr "Testing"
 #: ../../index.rst:51
 msgid ""
 "This package includes some doctests, as well as unit tests that can be "
-"run with :any:`nose2<nose2:index>`."
+"run with :any:`pytest<pytest:index>`."
 msgstr ""
 "Este paquete incluye algunos doctests, así como también tests unitarios "
-"que pueden ser ejecutados con :any:`nose2<nose2:index>`."
+"que pueden ser ejecutados con :any:`pytest<pytest:index>`."
 
 #: ../../index.rst:53
 msgid "After cloning the repository, you can run the doctests with:"
 msgstr "Luego de clonar el repositorio, puedes ejecutar los doctests con:"
 
 #: ../../index.rst:62
-msgid "Use :any:`nose2<nose2:index>` to run the unit tests:"
-msgstr "Usa :any:`nose2<nose2:index>` para ejecutar los tests unitarios:"
+msgid "Use :any:`pytest<pytest:index>` to run the unit tests:"
+msgstr "Usa :any:`pytest<pytest:index>` para ejecutar los tests unitarios:"
+
+#: ../../index.rst:79
+msgid ""
+"You can also use :any:`pytest<pytest:index>` to run all tests, including "
+"doctests, with:"
+msgstr "También es posible usar :any:`pytest<pytest:index>` para correr todos los tests, incluyendo "
+"los doctests, con:"
 

@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='ciuy',
-      version='0.3.6',
-      python_requires=">=3.5",
+      version='0.4.0',
+      python_requires=">=3.4",
       description='Python package for validating Uruguayan identity document numbers.',
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -22,6 +22,7 @@ setup(name='ciuy',
           "License :: OSI Approved :: MIT License",
           "Operating System :: OS Independent",
           "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.4",
           "Programming Language :: Python :: 3.5",
           "Programming Language :: Python :: 3.6",
           "Programming Language :: Python :: 3.7",
