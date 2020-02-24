@@ -27,8 +27,8 @@ master_doc = 'index'
 release = '0.3.5'
 
 # Localization config
-locale_dirs = ['locales/']   
-gettext_compact = False 
+locale_dirs = ['locales/']
+gettext_compact = False
 
 # -- General configuration ---------------------------------------------------
 
@@ -36,7 +36,7 @@ gettext_compact = False
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx'
-]
+              ]
 
 intersphinx_mapping = {
     'nose2': ('https://docs.nose2.io/en/latest/', None),

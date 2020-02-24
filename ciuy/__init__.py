@@ -37,7 +37,7 @@ def validate_ci(ci):
     """
     Returns True if ci (including validation digit) is valid, returns False otherwise.
     The input string may have periods, dashes, or other characters (any non-digit characters are ignored).
-    The input (not including validation digit) must be a number between 100.000 and 9.999.999, 
+    The input (not including validation digit) must be a number between 100.000 and 9.999.999,
     will raise ValueError otherwise.
 
     >>> validate_ci(11111111)
