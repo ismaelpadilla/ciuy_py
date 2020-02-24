@@ -1,5 +1,5 @@
 '''
-Package for validating Uruguayan identity document numbers. 
+Package for validating Uruguayan identity document numbers.
 The functions in this package work with strings and ignore any non-digit characters. Numbers are valid too.
 '''
 
