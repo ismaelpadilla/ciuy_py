@@ -3,6 +3,7 @@
 ![PyPI](https://img.shields.io/pypi/v/ciuy)
 ![PyPI - Status](https://img.shields.io/pypi/status/ciuy)
 [![Build Status](https://travis-ci.com/ismaelpadilla/ciuy_py.svg?branch=master)](https://travis-ci.com/ismaelpadilla/ciuy_py)
+[![Coverage Status](https://coveralls.io/repos/github/ismaelpadilla/ciuy_py/badge.svg?branch=master)](https://coveralls.io/github/ismaelpadilla/ciuy_py?branch=master)
 [![Documentation Status](https://readthedocs.org/projects/ciuy/badge/?version=latest)](https://ciuy.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - License](https://img.shields.io/pypi/l/ciuy)
 
