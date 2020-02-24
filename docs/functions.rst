@@ -8,7 +8,7 @@ Functions and examples
    :param str ci: The document number to validate. Any non-digit characters are ignored. A number can be passed as a parameter as well.
    :return: ``True`` if the document number is valid, ``False`` otherwise.
    :rtype: bool
-   :raises ValueError: if ``ci``\ , without including the validation digit is lower than 100.000 or higher than 9.999.999.
+   :raises ValueError: if ``ci``\ , without including the validation digit, is lower than 100.000 or higher than 9.999.999.
 
 >>> ciuy.validate_ci(1.234.567-2)
 True
@@ -17,10 +17,10 @@ True
 
    Returns the validation digit for a given document number.
 
-   :param str ci: The document number to validate. Any non-digit characters are ignored. A number can be passed as a parameter as well.
-   :return: ``True`` if the document number is valid, ``False`` otherwise.
+   :param str ci: The document number for which one wants to find the validation digit. Any non-digit characters are ignored. A number can be passed as a parameter as well.
+   :return: The validation digit.
    :rtype: bool
-   :raises ValueError: if ``ci``\ , without including the validation digit is lower than 100.000 or higher than 9.999.999.
+   :raises ValueError: if ``ci``\ is lower than 100.000 or higher than 9.999.999.
 
 >>> ciuy.validation_digit(1.234.567)
 '2'

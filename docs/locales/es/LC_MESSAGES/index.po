@@ -41,7 +41,7 @@ msgid ""
 "expressions represent the same document number::"
 msgstr ""
 "Las funciones en este paquete funcionan con strings e ignoran cualquier "
-"caracter que no sean números. También se pueden usar números. Entonces "
+"caracter que no sea un número. También se pueden usar números. Entonces "
 "por ejemplo, las siguientes expresiones representan el mismo número de "
 "documento::"
 
@@ -59,10 +59,9 @@ msgstr "Uso"
 
 #: ../../index.rst:46
 msgid "See :doc:`/functions` for more detailed documentation of each function."
-msgstr ""
+msgstr "Ver :doc:`/functions` para información más detallada acerca de cada función."
 
 #: ../../index.rst:49
-#, fuzzy
 msgid "Testing"
 msgstr "Testing"
 

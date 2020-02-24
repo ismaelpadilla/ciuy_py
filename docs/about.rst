@@ -46,7 +46,7 @@ Validating 1.234.567:
     &<1, 2, 3, 4, 5, 6, 7> . <8, 1, 2, 3, 4, 7, 6> = \\
     &\; 1*8 + 2*1 + 3*2 + 4*3 + 5*4 + 6*7 + 7*6 = 132\\
     &\\
-    &132 \: modulo \: 10 = 2
+    &132 \: mod \: 10 = 2
 
 So the validation digit is ``2``\ . The id number would normally be written
 as 1.234.567-2.
