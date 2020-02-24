@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='ciuy',
-      version='0.3.6',
+      version='0.4.0',
       python_requires=">=3.5",
       description='Python package for validating Uruguayan identity document numbers.',
       long_description=long_description,
