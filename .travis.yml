@@ -1,16 +1,17 @@
 language: python
 python:
+  - "3.4"
   - "3.5"
   - "3.6"
   - "3.7"
   - "3.8"
 # command to install dependencies
 install:
-  - pip install -U nose2
+  - pip install -U pytest
+  - pip install -U pytest-cov
   - pip install -U coveralls
-  - pip install -U pyyaml
 # command to run tests
 script:
-  - nose2 --with-coverage
+  - py.test --doctest-modules --cov-report term-missing --cov=ciuy
 after_success:
   - coveralls
