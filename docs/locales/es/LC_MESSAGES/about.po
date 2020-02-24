@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../about.rst:2
 msgid "About Uruguayan id numbers"
-msgstr "Acerca de los números de identidad uruguayos."
+msgstr "Acerca de los números de identidad uruguayos"
 
 #: ../../about.rst:4
 msgid ""

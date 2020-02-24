@@ -5,7 +5,11 @@
 [![Documentation Status](https://readthedocs.org/projects/ciuy/badge/?version=latest)](https://ciuy.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - License](https://img.shields.io/pypi/l/ciuy)
 
-Package for validating Uruguayan identity document numbers. 
+🇺🇾 🇪🇸 Documentación en español disponible [aquí](https://ciuy.readthedocs.io/es/latest/) / Spanish documentation is available [here](https://ciuy.readthedocs.io/es/latest/).
+
+----
+
+Package for validating Uruguayan identity document numbers. Full documentation is available [here](https://ciuy.readthedocs.io/es/latest/).
 
 The functions in this package work with strings and ignore any non-digit characters. Numbers are valid too. So for example, the following expressions represent the same document number:
 
@@ -66,9 +70,7 @@ OK
 
 # Todo
 
-- Better documentation (use *Read The Docs*?).
 - Maybe add command line scripts?
-- Readme in Spanish.
 
 ---
 
