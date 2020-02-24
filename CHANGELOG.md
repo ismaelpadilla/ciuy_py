@@ -5,4 +5,5 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Added linting with `flake8` to `travis-ci` config.
 - Tests now use `pytest` instead of `nose2`.
