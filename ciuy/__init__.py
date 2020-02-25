@@ -59,13 +59,13 @@ def validate_ci(ci):
     clean_ci = _clean(str(ci))
 
     # raise exception if ci is too low or too high
-    if (int(clean_ci[:-1]) < 100000 or int(clean_ci[:-1]) > 9999999):
+    if (int(clean_ci) < 1000000 or int(clean_ci) > 99999999):
         raise ValueError("ci must be higher than 100.000 and lower than 9.999.999")
 
     return clean_ci[-1] == validation_digit(clean_ci[:-1])
 
 
-def random():
+def random_ci():
     """
     Returns a random ci in the 100.000-9.000.000 range, including the validation digit.
     The returned string does not contain any periods or dashes.
