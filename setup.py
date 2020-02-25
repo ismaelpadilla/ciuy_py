@@ -30,4 +30,9 @@ setup(name='ciuy',
       ],
       packages=['ciuy'],
       include_package_data=True,
+      entry_points={
+          'console_scripts': [
+              'validate_ci = ciuy.command_line:cmd_validate_ci'
+          ]
+      },
       zip_safe=True)
