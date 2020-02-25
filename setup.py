@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='ciuy',
-      version='0.4.0',
+      version='0.5.0',
       python_requires=">=3.4",
       description='Python package for validating Uruguayan identity document numbers.',
       long_description=long_description,
@@ -30,4 +30,11 @@ setup(name='ciuy',
       ],
       packages=['ciuy'],
       include_package_data=True,
+      entry_points={
+          'console_scripts': [
+              'validate_ci = ciuy.command_line:cmd_validate_ci',
+              'validation_digit = ciuy.command_line:cmd_validation_digit',
+              'random_ci = ciuy.command_line:cmd_random_ci'
+          ]
+      },
       zip_safe=True)

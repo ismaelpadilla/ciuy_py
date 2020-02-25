@@ -56,7 +56,8 @@ def test_validate_ci_number_false(input):
     assert not ciuy.validate_ci(input)
 
 
-@pytest.mark.parametrize("input", ['100000', '100000000', '999999', '100000010', 100000, 100000000, 999999, 100000010])
+@pytest.mark.parametrize("input", ['1', '100000', '100000000', '999999', '100000010', 100000, 100000000, 999999,
+                                   100000010])
 def test_validate_ci_raises_ValueError(input):
     """
     Validates that validate_ci raises ValueError if the input is not within
