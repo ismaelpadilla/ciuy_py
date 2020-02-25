@@ -63,7 +63,7 @@ Use :any:`pytest<pytest:index>` to run the unit tests:
 
 ::
 
-   $ pytest
+   $ py.test
    ============================= test session starts ==============================
    platform linux -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
    rootdir: /home/ciuy
@@ -81,6 +81,20 @@ You can also use :any:`pytest<pytest:index>` to run all tests, including doctest
 ::
 
    $ py.test --doctest-modules
+
+Command line
+------------
+
+After installation, the following commands become available:
+
+::
+
+   $ validate_ci 1.234.567-2
+   True
+   $ validation_digit 1.234.567
+   2
+   $ random_ci
+   82405816
 
 
 .. toctree::

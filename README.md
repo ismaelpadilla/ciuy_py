@@ -60,10 +60,10 @@ $ python3 -m doctest ./ciuy/__init__.py -v
 Test passed.
 ```
 
-Use `pytest` to run the unit tests:
+Use `py.test` to run the unit tests:
 
 ```
-$ pytest
+$ py.test
 ============================= test session starts ==============================
 platform linux -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
 rootdir: /home/ciuy
@@ -74,7 +74,7 @@ tests/test_random.py ..                                                  [ 16%]
 tests/test_validate_ci.py ......................................         [ 68%]
 tests/test_validation_digit.py .......................                   [100%]
 
-============================== 73 passed in 0.37s =============================
+============================== 97 passed in 1.09s =============================
 ```
 
 You can also use `pytest` to run all tests, including doctests, with:
@@ -83,9 +83,18 @@ You can also use `pytest` to run all tests, including doctests, with:
 $ py.test --doctest-modules
 ```
 
-# Todo
+# Command line
 
-- Add command line scripts.
+After installation, the following commands become available:
+
+```
+$ validate_ci 1.234.567-2
+True
+$ validation_digit 1.234.567
+2
+$ random_ci
+82405816
+```
 
 ---
 

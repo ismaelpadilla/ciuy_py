@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  ciuy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 14:49-0300\n"
+"POT-Creation-Date: 2020-02-25 19:32-0300\n"
 "PO-Revision-Date: 2020-02-23 19:59-0300\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:86
+#: ../../index.rst:100
 msgid "Home"
 msgstr "Inicio"
 
-#: ../../index.rst:86
+#: ../../index.rst:100
 msgid "Contents:"
 msgstr "Contenido:"
 
@@ -87,6 +87,15 @@ msgstr "Usa :any:`pytest<pytest:index>` para ejecutar los tests unitarios:"
 msgid ""
 "You can also use :any:`pytest<pytest:index>` to run all tests, including "
 "doctests, with:"
-msgstr "También es posible usar :any:`pytest<pytest:index>` para correr todos los tests, incluyendo "
-"los doctests, con:"
+msgstr ""
+"También es posible usar :any:`pytest<pytest:index>` para correr todos los"
+" tests, incluyendo los doctests, con:"
+
+#: ../../index.rst:86
+msgid "Command line"
+msgstr "Línea de comandos"
+
+#: ../../index.rst:88
+msgid "After installation, the following commands become available:"
+msgstr "Luego de la instalación, los siguientes comandos estarán disponibles:"
 
