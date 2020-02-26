@@ -67,14 +67,15 @@ $ py.test
 ============================= test session starts ==============================
 platform linux -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
 rootdir: /home/ciuy
-collected 73 items                                                             
+collected 98 items     
 
-tests/test_clean.py ..........                                           [ 13%]
-tests/test_random.py ..                                                  [ 16%]
-tests/test_validate_ci.py ......................................         [ 68%]
-tests/test_validation_digit.py .......................                   [100%]
+tests\test_clean.py ..........                                           [ 10%]
+tests\test_command_line.py ........................                      [ 34%]
+tests\test_random_ci.py ..                                               [ 36%]
+tests\test_validate_ci.py .......................................        [ 76%]
+tests\test_validation_digit.py .......................                   [100%]
 
-============================== 97 passed in 1.09s =============================
+============================== 98 passed in 1.09s =============================
 ```
 
 You can also use `pytest` to run all tests, including doctests, with:
