@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  ciuy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-25 19:32-0300\n"
+"POT-Creation-Date: 2020-02-26 18:50-0300\n"
 "PO-Revision-Date: 2020-02-23 19:59-0300\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -25,6 +25,18 @@ msgstr "Inicio"
 #: ../../index.rst:100
 msgid "Contents:"
 msgstr "Contenido:"
+
+#: ../../index.rst:108
+msgid "ciuy @ PyPI"
+msgstr "ciuy @ PyPI"
+
+#: ../../index.rst:108
+msgid "ciuy @ GitHub"
+msgstr "ciuy @ GitHub"
+
+#: ../../index.rst:108
+msgid "Useful links:"
+msgstr "Links de utilidad:"
 
 #: ../../index.rst:7
 msgid "ciuy"
