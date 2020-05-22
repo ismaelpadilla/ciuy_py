@@ -11,7 +11,7 @@
 
 ----
 
-Package for validating Uruguayan identity document numbers. Full documentation is available [here](https://ciuy.readthedocs.io/es/latest/).
+Package for validating Uruguayan identity document numbers. Full documentation is available [here](https://ciuy.readthedocs.io/).
 
 The functions in this package work with strings and ignore any non-digit characters. Numbers are valid too. So for example, the following expressions represent the same document number:
 
